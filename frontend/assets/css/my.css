@@ -1,0 +1,142 @@
+.login{
+	float:right;
+	padding:4em;
+	width:40%;
+	margin-right: 2%;
+	margin-top: 2.5%;
+	background: rgba(0,0,0,0.8);
+}
+
+.login input[type="email"]{
+	outline: none;
+	color: #b3b3b3;
+	background: none;
+	font-size: 16px;
+	border: none;
+}
+
+.login input[type="password"]{
+	outline: none;
+	color: #b3b3b3;
+	background: none;
+	font-size: 16px;
+	border: none;
+}
+
+.login button{
+	color: #b3b3b3;
+	font-size: 16px;
+	border: none;
+}
+
+.login p{
+	color: #7f8c8d;
+}
+
+/*login*/
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+	width: 48%;
+	margin-right:10px;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+	width: 48%;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+/*register*/
+.register{
+    padding:4em 5em;
+    border-top: 1px solid #000;
+}
+.register p{
+    color: #000;
+    font-size: 1.2em;
+    word-spacing: 2px;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+    text-transform: lowercase;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+.register h3{
+    margin-left: 15px;
+}
+.register-form{
+    margin-top:3em;
+}
+.register form input[type="text"],.register form textarea,.register form input[type="password"]{
+    width: 100%;
+    padding: 10px 14px;
+    border: 3px solid #000;
+    font-size: 1.2em;
+    margin-bottom:1.5em;
+    color: #000;
+    outline: none;
+    font-weight:400;
+}
+
+.register form input[type="submit"] {
+    font-size: 1.35em;
+    font-weight:400;
+    color: #fff;
+    outline: none;
+    border: 3px solid #000;
+    padding: 0.5em 3em;
+    background:#000;
+    margin-top: 0em;
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+}
+.register form input[type="submit"]:hover{
+    background:#fff;
+    color:#000;
+}
+
+.map {
+    padding:0 15px;
+}
+.map iframe {
+    width:100%;
+    min-height:350px;
+}
+
