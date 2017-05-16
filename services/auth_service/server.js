@@ -12,9 +12,32 @@ mongoose    = require('mongoose');
 jwt         = require('jsonwebtoken');
 //application configurations
 config      = require('./config');
-//user schema
-User        = require('./user.model')
+userRouter  = require('./user.route');
 
-app.listen(7001, function(){
+app.use(body_parser.urlencoded({ extended: false }));
+app.use(body_parser.json());
+
+//log requests to console
+app.use(morgan('dev'));
+
+//set routes
+app.use('/users', userRouter);
+
+//initial display
+
+//connect to database
+mongoose.connect(config.database, function(err){
+    if(err){
+        console.log("Connection to database unsuccessful! :(");
+        return;
+    }
+    console.log('Connection to database successful! :)');
+});
+
+app.listen(7001, function(err){
+    if(err){
+        console.log("Error: Can not startup server :(\nPort already in use!");
+        return;
+    }
     console.log('Authentication service server listening on 7001');
 })
