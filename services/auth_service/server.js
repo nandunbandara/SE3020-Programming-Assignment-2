@@ -7,7 +7,8 @@ app         = express();
 body_parser = require('body-parser');
 morgan      = require('morgan');
 mongoose    = require('mongoose');
-
+//mailjet service to send emails to users
+mailjet     = require('node-mailjet');
 //json web tokens to validate users
 jwt         = require('jsonwebtoken');
 //application configurations
