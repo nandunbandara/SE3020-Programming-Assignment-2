@@ -65,5 +65,36 @@ router.get('/', (req,res)=>{
     })
 })
 
+//get user by email
+router.get('/:email', (req,res)=>{
+    if(req.params.email=="" || req.params.email==undefined){
+        res.status(400).json({message:"Invalid email or email is not set"});
+    }else{
+        //to be implemented: email validation
+        User.find({"email":req.params.email}).exec().then(user=>{
+            res.json(user || {});
+        }).catch(err=>{
+            console.log(err);
+            res.sendStatus(500);
+        })
+    }
+})
+//update user
+router.put('/:email', (req,res)=>{
+    if(req.params.email=="" || req.params.email==undefined){
+        res.status(400).json({message:"Invalid email or email is not set"});
+    }else{
+        //to be implemented: email validation
+        const user = new User(req.body);
+        User.findAndUpdate({"email":req.params.email}, {$set: user}).then(user=>{
+            res.json(user);
+        }).catch(err=>{
+            console.log(err);
+            res.sendStatus(500);
+        })
+    }
+})
+
+
 module.exports = router;
 
