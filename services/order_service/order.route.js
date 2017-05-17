@@ -16,6 +16,16 @@ router.get('/', (req,res)=>{
     })
 })
 
+//get order by id
+router.get('/:id', (req,res)=>{
+    Order.findById(req.params.id).exec().then(order=>{
+        res.json(order);
+    }).catch(err=>{
+        console.log(err);
+        res.sendStatus(500);
+    })
+})
+
 //add new order
 router.post('/',(req,res)=>{
     //validate user
@@ -33,5 +43,21 @@ router.post('/',(req,res)=>{
 })
 
 //update order
-
+router.put('/:id', (req,res)=>{
+    const order = new Order(req.body);
+    Order.findByIdAndUpdate(req.params.id, {$set: order}).then(order=>{
+        res.json(order);
+    }).catch(err=>{
+        console.log(err);
+        res.sendStatus(500);
+    })
+})
 //delete order
+router.delete('/:id', (req,res)=>{
+    Order.findByIdAndRemove(req.params.id).then(()=>{
+        res.sendStatus(200);
+    }).catch(err=>{
+        console.log(err);
+        res.sendStatus(500);
+    })
+})
