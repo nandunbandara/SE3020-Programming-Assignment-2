@@ -6,5 +6,5 @@ const mongoose = require('mongoose')
 
 const OrderSchema = new Schema({
       user_email: String,
-      
+
 })
