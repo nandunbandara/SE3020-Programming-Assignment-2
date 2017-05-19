@@ -7,6 +7,8 @@ const express = require('express')
     morgan = require('morgan')
     bodyParser = require('body-parser')
 
+    paymentRouter = require('./payment.route');
+
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -23,6 +25,7 @@ mongoose.connect('mongodb://root:pass123@ds147681.mlab.com:47681/se3020_dialog_p
     console.log('Connected to database!');
 })
 
+//listen
 app.listen(7007, err=>{
     if(err){
         console.log("Cannot start service. Port already in use!");
