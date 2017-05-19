@@ -6,10 +6,14 @@ const express = require('express')
     bodyParser = require('body-parser')
     morgan = require('morgan')
 
+    paymentRouter = require('./payment.route');
+
 //app configurations
 app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+//set router
+app.use('/',paymentRouter);
 
 //echo requests to console
 app.use(morgan('dev'));
@@ -29,5 +33,5 @@ app.listen(7008, err=>{
         console.log("Can not start service. Port already in use!");
         return;
     }
-    console.log("Sampath Bank Payment Gateway server listening on 7001")
+    console.log("Sampath Bank Payment Gateway server listening on 7008")
 })
