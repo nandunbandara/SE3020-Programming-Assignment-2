@@ -14,6 +14,15 @@ app.use(bodyParser.json());
 //echo requests to console
 app.use(morgan('dev'));
 
+//database connection
+mongoose.connect('mongodb://root:pass123@ds147551.mlab.com:47551/se3020_sampath_bank_gateway',err=>{
+    if(err){
+        console.log("Connection to database failed!");
+        return;
+    }
+    console.log("Connected to database :)");
+})
+
 //listen
 app.listen(7008, err=>{
     if(err){
