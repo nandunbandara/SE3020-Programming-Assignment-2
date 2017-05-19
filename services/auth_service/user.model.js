@@ -6,10 +6,10 @@ const
     Schema      =   mongoose.Schema;
 
 const UserSchema = new Schema({
-    name: String,
-    email: String,
-    password: String,
-    contact: String
+    name: { type:String, required:true },
+    email: { type:String, required:true, unique:true },
+    password: { type:String, required:true },
+    contact: { type:String }
 })
 
 UserSchema.pre('save', next=>{
