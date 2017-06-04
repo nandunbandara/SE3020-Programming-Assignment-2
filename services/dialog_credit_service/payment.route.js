@@ -2,7 +2,6 @@
  * Created by ntban_000 on 5/19/2017.
  */
 const express = require('express');
-    paymentModel
 router = express.Router();
 
 router.post('/', (req,res)=>{
