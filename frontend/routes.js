@@ -15,4 +15,9 @@ angular.module('cinema.routes',['ngRoute'])
             templateUrl: 'templates/register.html',
             controller: 'registerCtrl as reg'
         })
+
+        .when('/order',{
+            templateUrl: 'templates/order.html',
+            controller: 'orderCtrl as order'
+        })
 }])
