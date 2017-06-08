@@ -5,5 +5,6 @@ angular.module('cinema',[
     'cinema.routes',
     'cinema.homeController',
     'cinema.registerController',
-    'cinema.orderController'
+    'cinema.orderController',
+    'cinema.dashboardController'
 ]);

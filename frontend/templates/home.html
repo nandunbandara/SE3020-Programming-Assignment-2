@@ -20,7 +20,7 @@
                     <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
                 </div>
                 <br><p>OR</p><br>
-                <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                <form class="form" role="form" accept-charset="UTF-8" id="login-nav">
                     <div class="form-group">
                         <label class="sr-only" for="exampleInputEmail2">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
@@ -31,8 +31,8 @@
                         <div class="help-block text-right"><a href="">Forget the password ?</a></div>
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-block">Sign in</button>
-                        <div class="help-block text-right"><a href="/register">New user? Register here</a></div>
+                        <button ng-click="home.login()" class="btn btn-primary btn-block">Sign in</button>
+                        <div class="help-block text-right"><a href="./#!/register">New user? Register here</a></div>
                     </div>
                 </form>
             </div>
@@ -40,22 +40,45 @@
         </div>
         <div class="review-slider">
             <ul id="flexiselDemo1">
-                <li><img src="../assets/images/r1.jpg" alt=""/></li>
-                <li><img src="../assets/images/r2.jpg" alt=""/></li>
-                <li><img src="../assets/images/r3.jpg" alt=""/></li>
-                <li><img src="../assets/images/r4.jpg" alt=""/></li>
-                <li><img src="../assets/images/r5.jpg" alt=""/></li>
-                <li><img src="../assets/images/r6.jpg" alt=""/></li>
+                <li>
+                    <img src="assets/images/r1.jpg" alt=""/><br>
+                    <button class="btn btn-sm btn-danger">Tickets</button>
+                    <button class="btn btn-sm btn-primary">Info</button>
+                </li>
+                <li>
+                    <img src="assets/images/r2.jpg" alt=""/><br>
+                    <button class="btn btn-sm btn-danger">Tickets</button>
+                    <button class="btn btn-sm btn-primary">Info</button>
+                </li>
+                <li>
+                    <img src="assets/images/r3.jpg" alt=""/><br>
+                    <button class="btn btn-sm btn-danger">Tickets</button>
+                    <button class="btn btn-sm btn-primary">Info</button>
+                </li>
+                <li>
+                    <img src="assets/images/r4.jpg" alt=""/><br>
+                    <button class="btn btn-sm btn-danger">Tickets</button>
+                    <button class="btn btn-sm btn-primary">Info</button>
+                </li>
+                <li>
+                    <img src="assets/images/r5.jpg" alt=""/><br>
+                    <button class="btn btn-sm btn-danger">Tickets</button>
+                    <button class="btn btn-sm btn-primary">Info</button>
+                </li>
+                <li>
+                    <img src="assets/images/r6.jpg" alt=""/><br>
+                    <button class="btn btn-sm btn-danger">Tickets</button>
+                    <button class="btn btn-sm btn-primary">Info</button>
+                </li>
             </ul>
             <script type="text/javascript">
                 $(window).load(function() {
-
                     $("#flexiselDemo1").flexisel({
                         visibleItems: 6,
                         animationSpeed: 1000,
                         autoPlay: true,
                         autoPlaySpeed: 3000,
-                        pauseOnHover: false,
+                        pauseOnHover: true,
                         enableResponsiveBreakpoints: true,
                         responsiveBreakpoints: {
                             portrait: {
@@ -74,14 +97,14 @@
                     });
                 });
             </script>
-            <script type="text/javascript" src="../assets/js/jquery.flexisel.js"></script>
+            <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
         </div>
         <div class="news">
             <div class="col-md-6 news-left-grid">
                 <h3>Don’t like wasting time?</h3>
                 <h2>Book your ticket now!</h2>
                 <h4>Easy, simple & fast.</h4>
-                <a href="#"><i class="book"></i>BOOK TICKET AS A GUEST</a>
+                <a href="#"><i class="book"></i>BOOK TICKET</a>
             </div>
             <div class="col-md-6 news-right-grid">
                 <img style="height: 500px" src="assets/images/guest.png">

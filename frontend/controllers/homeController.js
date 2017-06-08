@@ -3,6 +3,10 @@
  */
 angular.module('cinema.homeController',[])
 
-.controller('homeCtrl', [function(){
-
+.controller('homeCtrl', ['$location', function($location){
+    const app = this;
+    app.login = function(){
+        $location.path('/dashboard');
+        console.log("login function called");
+    }
 }])

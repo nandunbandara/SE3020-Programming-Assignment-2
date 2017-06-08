@@ -20,4 +20,19 @@ angular.module('cinema.routes',['ngRoute'])
             templateUrl: 'templates/order.html',
             controller: 'orderCtrl as order'
         })
+
+        .when('/order_payment',{
+            templateUrl: 'templates/order_payment.html',
+            controller: 'orderPaymentController as orderPay'
+        })
+
+        .when('order_payment_confirm',{
+            templateUrl: 'templates/order_payment_confirm.html',
+            controller: 'orderPaymentConfirmController as payConfirm'
+        })
+
+        .when('/dashboard',{
+            templateUrl: 'templates/dashboard.html',
+            controller: 'dashboardController as dash'
+        })
 }])
