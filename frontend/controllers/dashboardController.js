@@ -5,10 +5,11 @@ angular.module('cinema.dashboardController',[])
 
 .controller('dashboardController',['userFactory', function(userFactory){
     console.log("dashboard controller")
-    this.users;
-    this.test = "sample text";
+    const app = this;
+    app.users;
+    app.test = "sample text";
     userFactory.getAllUsers().then(function(data){
-        this.users = data.data;
+        app.users = data.data;
         // console.log(users);
         console.log(this.users)
     })
