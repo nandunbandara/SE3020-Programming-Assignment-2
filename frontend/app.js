@@ -3,8 +3,12 @@
  */
 angular.module('cinema',[
     'cinema.routes',
+    //controllers
     'cinema.homeController',
     'cinema.registerController',
     'cinema.orderController',
-    'cinema.dashboardController'
+    'cinema.dashboardController',
+//  services
+    'cinema.orderService',
+    'cinema.userService'
 ]);

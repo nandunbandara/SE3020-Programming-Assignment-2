@@ -15,6 +15,7 @@ jwt         = require('jsonwebtoken');
 config      = require('./config');
 userRouter  = require('./user.route');
 
+
 app.use(body_parser.urlencoded({ extended: false }));
 app.use(body_parser.json());
 
@@ -23,6 +24,8 @@ app.use(morgan('dev'));
 
 //set routes
 app.use('/users', userRouter);
+
+
 
 //initial display
 
