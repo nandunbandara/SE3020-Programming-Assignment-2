@@ -45,3 +45,6 @@ app.listen(7001, function(err){
     }
     console.log('Authentication service server listening on 7001');
 })
+
+//export module for testing
+module.exports = app;
