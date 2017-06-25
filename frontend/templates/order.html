@@ -29,61 +29,61 @@
                         <tr>
                             <td>
                                 <div class="checkbox">
-                                    <label><input type="checkbox" value="">Popcorn</label>
+                                    <label><input type="checkbox" value="">Popcorn (Rs.250.00)</label>
                                 </div>
                             </td>
                             <td style="padding-left: 10px">
-                                <input type="text" class="form-control" placeholder="Quantity">
+                                <input type="text" class="form-control" placeholder="Quantity" ng-model="order.popcorn">
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <div class="checkbox">
-                                    <label><input type="checkbox" value="">Walkers Ready Salted</label>
+                                    <label><input type="checkbox" value="">Walkers Ready Salted (Rs.100.00)</label>
                                 </div>
                             </td>
                             <td style="padding-left: 10px">
-                                <input type="text" class="form-control" placeholder="Quantity">
+                                <input type="text" class="form-control" placeholder="Quantity" ng-model="order.salt">
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <div class="checkbox">
-                                    <label><input type="checkbox" value="">Walkers Cheese and Onion</label>
+                                    <label><input type="checkbox" value="">Walkers Cheese and Onion (Rs.100.00)</label>
                                 </div>
                             </td>
                             <td style="padding-left: 10px">
-                                <input type="text" class="form-control" placeholder="Quantity">
+                                <input type="text" class="form-control" placeholder="Quantity" ng-model="order.cheese">
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <div class="checkbox">
-                                    <label><input type="checkbox" value="">KFC Chicken Bucket</label>
+                                    <label><input type="checkbox" value="">KFC Chicken Bucket (Rs.1000.00)</label>
                                 </div>
                             </td>
                             <td style="padding-left: 10px">
-                                <input type="text" class="form-control" placeholder="Quantity">
+                                <input type="text" class="form-control" placeholder="Quantity" ng-model="order.chicken">
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <div class="checkbox">
-                                    <label><input type="checkbox" value="">Coca Cola Cup</label>
+                                    <label><input type="checkbox" value="">Coca Cola Cup (Rs.100.00)</label>
                                 </div>
                             </td>
                             <td style="padding-left: 10px">
-                                <input type="text" class="form-control" placeholder="Quantity">
+                                <input type="text" class="form-control" placeholder="Quantity" ng-model="order.coke">
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <div class="checkbox">
-                                    <label><input type="checkbox" value="">Pepsi Cup</label>
+                                    <label><input type="checkbox" value="">Pepsi Cup (Rs.100.00)</label>
                                 </div>
                             </td>
                             <td style="padding-left: 10px">
-                                <input type="text" class="form-control" placeholder="Quantity">
+                                <input type="text" class="form-control" placeholder="Quantity" ng-model="order.pepsi">
                             </td>
                         </tr>
                     </table>
@@ -110,7 +110,7 @@
                 </small><br>
             </form>
             <!--Total Amount-->
-                    <h3>Total: $</h3><br>
+                    <h3>Total: $<span ng-model="order.total"></span> </h3><br>
                     <button class="btn btn-primary btn-lg">Proceed to Checkout</button>
         </div>
     </div>
