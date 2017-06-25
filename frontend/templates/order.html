@@ -1,0 +1,177 @@
+<div style="margin-top: 3em;"></div>
+<div class="row">
+    <div class="col-md-5 col-md-offset-1">
+        <div class="container-fluid">
+            <h2>Book Your Ticket</h2>
+            <form>
+                <div class="input-group">
+                    <label for="time">Time</label>
+                    <select id="time" class="form-control">
+                        <option>10.30 a.m. to 12.30 p.m.</option>
+                        <option>1.30 p.m. to 3.30 p.m.</option>
+                        <option>4.30 p.m. to 6.30 p.m.</option>
+                        <option>7.30 p.m. to 9.30 p.m.</option>
+                    </select>
+                </div><br>
+                <div class="input-group">
+                    <label for="seats">Available Seats*</label>
+                    <select multiple class="form-control" id="seats">
+                        <option>Seat A1</option>
+                        <option>Seat A2</option>
+                        <option>Seat A3</option>
+                        <option>Seat A4</option>
+                        <option>Seat A5</option>
+                    </select>
+                </div><br>
+                <div class="input-group">
+                    <label for="snacks">Snacks**</label>
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="">Popcorn</label>
+                                </div>
+                            </td>
+                            <td style="padding-left: 10px">
+                                <input type="text" class="form-control" placeholder="Quantity">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="">Walkers Ready Salted</label>
+                                </div>
+                            </td>
+                            <td style="padding-left: 10px">
+                                <input type="text" class="form-control" placeholder="Quantity">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="">Walkers Cheese and Onion</label>
+                                </div>
+                            </td>
+                            <td style="padding-left: 10px">
+                                <input type="text" class="form-control" placeholder="Quantity">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="">KFC Chicken Bucket</label>
+                                </div>
+                            </td>
+                            <td style="padding-left: 10px">
+                                <input type="text" class="form-control" placeholder="Quantity">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="">Coca Cola Cup</label>
+                                </div>
+                            </td>
+                            <td style="padding-left: 10px">
+                                <input type="text" class="form-control" placeholder="Quantity">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" value="">Pepsi Cup</label>
+                                </div>
+                            </td>
+                            <td style="padding-left: 10px">
+                                <input type="text" class="form-control" placeholder="Quantity">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <small>
+                    <i>*&nbsp;&nbsp;&nbsp;&nbsp;Refer the seating plan diagram
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp; Use the shift key to select multiple seats</i><br>
+                    <i>** Ordered snacks will be delivered to your seats during the interval</i><br>
+                </small><br>
+                <h3>Restaurant Reservations</h3>
+                <div class="input-group">
+                    <label for="people">No. of heads</label>
+                    <input type="text" id="people" class="form-control">
+                </div>
+                <div class="input-group">
+                    <label for="dineOptions">Meal Options*</label>
+                    <select class="form-control">
+                        <option value="">Light</option>
+                        <option value="">Heavy</option>
+                    </select>
+                </div><br>
+                <small>
+                    <i>* &nbsp; Meals can be selected on arrival</i><br>
+                </small><br>
+            </form>
+            <!--Total Amount-->
+                    <h3>Total: $</h3><br>
+                    <button class="btn btn-primary btn-lg">Proceed to Checkout</button>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="container-fluid">
+            <img src="assets/images/cinema-seating.jpg" class="img-responsive"><br>
+            <div class="review-slider" style="background: white;">
+                <ul id="flexiselDemo1">
+                    <li>
+                        <img src="assets/images/snack1.png" alt=""/><br>
+                    </li>
+                    <li>
+                        <img src="assets/images/snack2.png" alt=""/><br>
+                    </li>
+                    <li>
+                        <img src="assets/images/snack3.png" alt=""/><br>
+                    </li>
+                    <li>
+                        <img src="assets/images/snack4.png" alt=""/><br>
+                    </li>
+                    <li>
+                        <img src="assets/images/snack5.png" alt=""/><br>
+                    </li>
+                    <li>
+                        <img src="assets/images/snack6.png" alt=""/><br>
+                    </li>
+                </ul>
+                <script type="text/javascript">
+                    $(window).load(function() {
+                        $("#flexiselDemo1").flexisel({
+                            visibleItems: 8,
+                            animationSpeed: 1000,
+                            autoPlay: true,
+                            autoPlaySpeed: 3000,
+                            pauseOnHover: true,
+                            enableResponsiveBreakpoints: true,
+                            responsiveBreakpoints: {
+                                portrait: {
+                                    changePoint:480,
+                                    visibleItems: 2
+                                },
+                                landscape: {
+                                    changePoint:640,
+                                    visibleItems: 3
+                                },
+                                tablet: {
+                                    changePoint:768,
+                                    visibleItems: 4
+                                }
+                            }
+                        });
+                    });
+                </script>
+                <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
+            </div>
+            <br>
+            <div class="text-center">
+                <img src="assets/images/rests.jpg" height="400px">
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div>
+<div style="margin-bottom: 3em;"></div>

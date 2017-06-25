@@ -35,7 +35,7 @@
      console.log('Connection to database successful! :)');
  });
 
- app.listen(7001, function(err){
+ app.listen(7002, function(err){
      if(err){
          console.log("Error: Can not startup server :(\nPort already in use!");
          return;

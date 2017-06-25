@@ -1,16 +1,66 @@
-<div class="container">
-   <div class="row">
-       <div class="col-md-6 col-md-offset-2">
-           <table class="table table-bordered">
-               <tr>
-                   <th>Email</th>
-                   <th>Name</th>
-               </tr>
-               <tr ng-repeat="item in dash.users">
-                   <td>{{item.email}}</td>
-                   <td>{{item.name}}</td>
-               </tr>
-           </table>
-       </div>
-   </div>
-</div>
+ <div class="review-slider">
+        <ul id="flexiselDemo1">
+            <li>
+                <img src="assets/images/r1.jpg" alt=""/><br>
+            </li>
+            <li>
+                <img src="assets/images/r2.jpg" alt=""/><br>
+            </li>
+            <li>
+                <img src="assets/images/r3.jpg" alt=""/><br>
+            </li>
+            <li>
+                <img src="assets/images/r4.jpg" alt=""/><br>
+            </li>
+            <li>
+                <img src="assets/images/r5.jpg" alt=""/><br>
+            </li>
+            <li>
+                <img src="assets/images/r6.jpg" alt=""/><br>
+            </li>
+        </ul>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $("#flexiselDemo1").flexisel({
+                    visibleItems: 9,
+                    animationSpeed: 1000,
+                    autoPlay: true,
+                    autoPlaySpeed: 3000,
+                    pauseOnHover: true,
+                    enableResponsiveBreakpoints: true,
+                    responsiveBreakpoints: {
+                        portrait: {
+                            changePoint:480,
+                            visibleItems: 2
+                        },
+                        landscape: {
+                            changePoint:640,
+                            visibleItems: 3
+                        },
+                        tablet: {
+                            changePoint:768,
+                            visibleItems: 4
+                        }
+                    }
+                });
+            });
+        </script>
+        <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
+ </div>
+ <div class="container">
+     <div class="row">
+         <div class="col-md-3">
+             <div class="thumbnail" style="padding: 1em 0em;">
+                 <div class="media text-center">
+                     <div class="media-left">
+                         <img src="assets/images/r2.jpg" class="img-thumbnail img-responsive">
+                     </div>
+                     <div class="media-body">
+                         <h3>MC COLOMBO</h3>
+                         <button class="btn btn-danger">Book Now</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
