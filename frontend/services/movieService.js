@@ -6,7 +6,7 @@ angular.module('cinema.movieService',[])
 .factory('movieDataFactory', ['$http', function($http){
     var movieFac = [];
     movieFac.getAllMovies = function(){
-        return $http.get('http://localhost:7003/').then(function(data){
+        return $http.get('http://localhost:8280/services/movies/').then(function(data){
             return data;
         }).catch(function(err){
             return err;

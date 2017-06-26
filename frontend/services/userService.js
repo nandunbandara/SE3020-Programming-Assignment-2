@@ -7,13 +7,13 @@ angular.module('cinema.userService',[])
     const userFac = [];
 
     userFac.getAllUsers = ()=>{
-        return $http.get('http://localhost:7001/users').then(function(data){
+        return $http.get('http://localhost:8280/services/users').then(function(data){
             return data;
         })
     }
     //login function
     userFac.login = function(data){
-        return $http.post('http://localhost:7001/users/authenticate', data).then(function(data){
+        return $http.post('http://localhost:8280/services/users/authenticate', data).then(function(data){
             tokenFactory.setToken(data.data.token);
             return data;
         }).catch(function(err){
@@ -23,7 +23,7 @@ angular.module('cinema.userService',[])
     //signup - new user
     userFac.signup = function(data){
         console.log(data);
-        return $http.post('http://localhost:7001/users',data).then(function(data){
+        return $http.post('http://localhost:8280/services/users',data).then(function(data){
             return data;
         }).catch(function(err){
             return err;

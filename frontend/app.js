@@ -9,6 +9,7 @@ angular.module('cinema',[
     'cinema.orderController',
     'cinema.dashboardController',
     'cinema.movieInfoController',
+    'cinema.orderPaymentConfirmController',
 //  services
     'cinema.orderService',
     'cinema.userService',
