@@ -27,7 +27,8 @@ angular.module('cinema.dashboardController',[])
     }
 
 //    goto booking
-    app.book = function(){
-        console.log("booking called")
+    app.book = function(movie){
+        movieInfoFactory.setInfo(app.movies[movie]);
+        $location.path('/order');
     }
 }])
