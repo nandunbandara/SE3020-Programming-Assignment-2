@@ -48,12 +48,13 @@
         <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
  </div>
  <div class="container">
-     <div class="row">
-         <div class="col-md-3">
-             <div class="thumbnail" style="padding: 1em 0em;">
+     <h1>Now Showing</h1>
+     <div class="row" ng-repeat="n in [].constructor(1) track by $index">
+         <div class="col-md-3" ng-repeat="item in dash.movies">
+             <div class="thumbnail" style="padding: 1em 1em;">
                  <div class="media text-center">
                      <div class="media-left">
-                         <img src="assets/images/r2.jpg" class="img-thumbnail img-responsive">
+                         <img src="{{item.thumbnail}}" class="img-thumbnail img-responsive">
                      </div>
                      <div class="media-body">
                          <h3>MC COLOMBO</h3>
@@ -65,3 +66,5 @@
          </div>
      </div>
  </div>
+ <div style="margin-bottom: 3em;"></div>
+

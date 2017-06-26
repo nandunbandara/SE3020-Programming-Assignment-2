@@ -5,18 +5,16 @@ angular.module('cinema.dashboardController',[])
 
 .controller('dashboardController',['userFactory','movieDataFactory', function(userFactory,movieDataFactory){
     const app = this;
-    app.users;
     app.test = "sample text";
-    userFactory.getAllUsers().then(function(data){
-        app.users = data.data;
-        // console.log(users);
-        console.log(this.users)
-    })
+
+    //view control variables
+    app.movies_per_line = 3;
 
 //    gell all available movies
     movieDataFactory.getAllMovies().then(function(data){
         app.movies = data.data;
-        console.log(app.movies);
+        console.log();
+        app.lines_of_movies = (Object.keys(app.movies).length/app.movies_per_line)+1;
     }).catch(function(err){
         if(err) console.log(err);
     })
