@@ -14,10 +14,11 @@
     <h2>Not a member?</h2>
     <h4>Signup here!</h4>
     <form>
-        <input type="text" class="form-control" placeholder="Email"><br>
-        <input type="password" class="form-control" placeholder="Password"><br>
-        <input type="password" class="form-control" placeholder="Confirm Password"><br>
-        <button class="btn btn-primary">Signup</button>
+        <input type="text" class="form-control" placeholder="Name" ng-model="home.signup_name"><br>
+        <input type="text" class="form-control" placeholder="Email" ng-model="home.signup_email"><br>
+        <input type="password" class="form-control" placeholder="Password" ng-model="home.signup_password"><br>
+        <input type="password" class="form-control" placeholder="Confirm Password" ng-model="home.signup_password_confirm"><br>
+        <button class="btn btn-primary" ng-click="home.signup()">Signup</button>
     </form><br>
     <h4>Contact us on:</h4>
     <p>Email: contact@movietimes.lk</p>

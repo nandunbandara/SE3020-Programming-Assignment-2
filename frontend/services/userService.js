@@ -12,5 +12,17 @@ angular.module('cinema.userService',[])
         })
     }
 
+    userFac.login = function(){
+
+    }
+
+    userFac.signup = function(data){
+        return $http.post('http://localhost:7001/users',data).then(function(data){
+            return data;
+        }).catch(function(err){
+            return err;
+        })
+    }
+
     return userFac;
 }])
