@@ -9,7 +9,9 @@ const
     mongoose=   require('mongoose');
     mailjet =   require('node-mailjet').connect("e49bde0cda73ada102f220f80ff2d50d","57d9ff591447737dd0e50ef8ceea2293");
     router  =   express.Router();
-
+    webtoken=   require('jsonwebtoken');
+//    constant secret for token generation
+    secret  =   "#n@ndun7b33";
 //register new user
 router.post('/', (req,res)=>{
     //validate request body
@@ -55,6 +57,28 @@ router.post('/', (req,res)=>{
     }
 })
 
+//authenticate a user
+router.post('/authenticate', function(req,res){
+    User.findOne({ email: req.body.email }).select('name email password').exec(function(err,user){
+        if(err) throw err;
+        if(!user){
+            res.json({ success:false, message:'Could not authenticate user'});
+        }else if(user){
+            //password validation
+            const validPassword = user.comparePassword(req.body.password);
+            if(validPassword){
+                //set web token
+                const token = webtoken.sign({
+                    email: user.email,
+                    name: user.name
+                }, secret, { expiresIn: '1h'});
+                res.json({ sucess:true, message: 'User authenticated!', token:token });
+            }else{
+                res.json({ success:false, message:'Could not validate user. Incorrect password!'});
+            }
+        }
+    })
+})
 //get all users
 router.get('/', (req,res)=>{
     User.find().exec().then(users=>{

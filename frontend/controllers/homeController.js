@@ -40,6 +40,11 @@ angular.module('cinema.homeController',[])
             signup_details.name = app.signup_name;
             signup_details.email = app.signup_email;
             signup_details.password = app.signup_password;
+            userFactory.signup(signup_details).then(function(data){
+                console.log(data);
+            }).catch(function(err){
+                console.log(err);
+            })
         }
     }
 
