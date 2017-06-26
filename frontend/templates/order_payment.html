@@ -1,26 +1,46 @@
 <div style="margin-top: 3em;"></div>
 <div class="row">
-    <div class="col-md-5 col-md-offset-1">
-        <h2>Payment Method</h2>
-        <h3>Credit Card (Sampath Bank)</h3><br>
-        <form>
-            <div class="input-group">
-                <label for="ccNumber">Credit Card Number</label>
-                <input id="ccNumber" type="text" class="form-control">
-            </div><br>
-            <div class="input-group">
-                <label for="ccName">Card Holder's Name</label>
-                <input id="ccName" type="text" class="form-control">
-            </div><br>
-            <div class="input-group">
-                <label for="cvc">CVC Number</label>
-                <input id="cvc" type="text" class="form-control">
+    <div class="col-md-4 col-md-offset-2">
+        <div class="container-fluid">
+            <h2>Payment Method</h2>
+            <h3>Credit Card (Sampath Bank)</h3>
+            <form>
+                <div class="input-group">
+                    <label for="ccNumber">Credit Card Number</label>
+                    <input id="ccNumber" type="text" class="form-control">
+                </div><br>
+                <div class="input-group">
+                    <label for="ccName">Card Holder's Name</label>
+                    <input id="ccName" type="text" class="form-control">
+                </div><br>
+                <div class="input-group">
+                    <label for="cvc">CVV Number</label>
+                    <input id="cvc" type="text" class="form-control">
+                </div><br>
+                <button class="btn btn-primary btn-lg">Proceed Payment (CC)</button>
+            </form><br>
+            <div>
+                <img src="assets/images/cvv.jpg" height="100em">
             </div>
-        </form><br>
-        <div>
-            <img src="assets/images/cvv.jpg" height="150em">
         </div>
     </div>
-    <div class="col-md-5"></div>
-    <div class="col-md-1"></div>
+    <div class="col-md-4">
+        <br><br>
+        <div class="container-fluid">
+            <h3>Pay with Dialog*</h3>
+            <form>
+                <div class="input-group">
+                    <label for="number">Dialog Number</label>
+                    <input id="number" type="text" class="form-control">
+                </div><br>
+                <div class="input-group">
+                    <label for="pin">PIN Number</label>
+                    <input id="pin" type="text" class="form-control">
+                </div><br>
+                <button class="btn btn-primary btn-lg">Proceed Payment with Dialog</button>
+            </form><br>
+            <p>* <i>Amount will be added to your monthly bill</i></p>
+        </div>
+    </div>
+    <div class="col-md-2"></div>
 </div>
