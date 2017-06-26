@@ -3,8 +3,7 @@
  */
 angular.module('cinema.dashboardController',[])
 
-.controller('dashboardController',['userFactory', function(userFactory){
-    console.log("dashboard controller")
+.controller('dashboardController',['userFactory','movieDataFactory', function(userFactory,movieDataFactory){
     const app = this;
     app.users;
     app.test = "sample text";
@@ -12,5 +11,13 @@ angular.module('cinema.dashboardController',[])
         app.users = data.data;
         // console.log(users);
         console.log(this.users)
+    })
+
+//    gell all available movies
+    movieDataFactory.getAllMovies().then(function(data){
+        app.movies = data.data;
+        console.log(app.movies);
+    }).catch(function(err){
+        if(err) console.log(err);
     })
 }])

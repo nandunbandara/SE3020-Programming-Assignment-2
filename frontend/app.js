@@ -10,5 +10,6 @@ angular.module('cinema',[
     'cinema.dashboardController',
 //  services
     'cinema.orderService',
-    'cinema.userService'
+    'cinema.userService',
+    'cinema.movieService'
 ]);

@@ -4,8 +4,10 @@
 const express = require('express');
 const router = express.Router();
 
+const movies = require('./movies.json');
+
 router.get('/',function(req,res){
-    res.json({'message':'movie router test'});
+    res.json(movies);
 })
 
 module.exports = router;
