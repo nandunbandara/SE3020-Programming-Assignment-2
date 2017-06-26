@@ -8,6 +8,7 @@ angular.module('cinema',[
     'cinema.registerController',
     'cinema.orderController',
     'cinema.dashboardController',
+    'cinema.movieInfoController',
 //  services
     'cinema.orderService',
     'cinema.userService',

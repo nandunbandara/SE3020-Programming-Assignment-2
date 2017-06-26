@@ -1,0 +1,37 @@
+<div style="margin-top: 3em;"></div>
+<div class="row">
+    <div class="col-md-3 col-md-offset-2">
+        <div class="container-fluid">
+            <h3>{{info.movie_data.name}}</h3><br>
+            <div class="thumbnail" style="padding: 1em 1em;">
+                <div class="media text-center">
+                    <div class="media-body">
+                        <img src="{{info.movie_data.thumbnail}}" class="img-thumbnail img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+        <table class="table table-responsive" style="margin-top: 3em;">
+            <tr>
+                <td><b>Synopsis</b></td>
+                <td>{{info.movie_data.synopsis}}</td>
+            </tr>
+            <tr>
+                <td><b>Cast</b></td>
+                <td>{{info.movie_data.cast}}</td>
+            </tr>
+            <tr>
+                <td><b>Facts</b></td>
+                <td>{{info.movie_data.facts}}</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td colspan="2">
+                    <br><button class="form-control btn btn-primary">Book Now</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>

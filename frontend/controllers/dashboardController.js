@@ -3,7 +3,8 @@
  */
 angular.module('cinema.dashboardController',[])
 
-.controller('dashboardController',['userFactory','movieDataFactory', function(userFactory,movieDataFactory){
+.controller('dashboardController',['userFactory','movieDataFactory','movieInfoFactory','$location',
+    function(userFactory,movieDataFactory,movieInfoFactory,$location){
     const app = this;
     app.test = "sample text";
 
@@ -18,4 +19,15 @@ angular.module('cinema.dashboardController',[])
     }).catch(function(err){
         if(err) console.log(err);
     })
+
+//    view movie info
+    app.viewInfo = function(movie){
+        movieInfoFactory.setInfo(app.movies[movie]);
+        $location.path('/movie_info')
+    }
+
+//    goto booking
+    app.book = function(){
+        console.log("booking called")
+    }
 }])

@@ -14,3 +14,20 @@ angular.module('cinema.movieService',[])
     }
     return movieFac;
 }])
+
+//store movie information and share between views
+.factory('movieInfoFactory', [function(){
+    var movieInfoFac = [];
+
+    var movieInfo;
+
+    movieInfoFac.setInfo = function(data){
+        movieInfo = data;
+    }
+
+    movieInfoFac.getInfo = function(){
+        return movieInfo;
+    }
+
+    return movieInfoFac;
+}])

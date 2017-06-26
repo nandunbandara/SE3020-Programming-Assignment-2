@@ -35,4 +35,9 @@ angular.module('cinema.routes',['ngRoute'])
             templateUrl: 'templates/dashboard.html',
             controller: 'dashboardController as dash'
         })
+
+        .when('/movie_info',{
+            templateUrl: 'templates/movie_info.html',
+            controller: 'movieInfoController as info'
+        })
 }])

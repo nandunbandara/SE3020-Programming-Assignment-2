@@ -1,5 +1,6 @@
 {
   "ali_kathawa":{
+    "id":"ali_kathawa",
     "name":"Ali Kathawa",
     "synopsis":"Ali Kathawa is a Sinhalese children's movie. ",
     "cast":"Tharuka Wanniarachchi, Dananjaya Siriwardana, Ravindra Randeniya, Duleeka Marapana, Sarath Kothalawala, Wilson Gunaratne, Kumara Thirimadura, Rodney Warnakula, Kaushalya Fernando, Yehani Hansika",
@@ -7,6 +8,7 @@
     "thumbnail":"http://eapmovies.com/templates/eap2/timthumb.php?src=http://eapmovies.com/components/com_eapmovies/includes/images/movies/movies_453/movies_453_5950dbcecb4ea_movies_453_59117fb6b45a9_poster.jpg&h=350&w=270&zc=1"
   },
   "cars3":{
+    "id":"cars3",
     "name":"Cars 3",
     "synopsis":"Cars 3 is a 2017 American 3D computer-animated comedy film produced by Pixar Animation Studios and released by Walt Disney Pictures. It is the eighteenth Pixar feature film and the third installment in the Cars film franchise, following Cars 2 (2011). It is directed by Brian Fee, a storyboard artist on Cars (2006) and Cars 2, and stars the voices of Owen Wilson, Cristela Alonzo, Chris Cooper, Armie Hammer, Larry the Cable Guy, Bonnie Hunt, Nathan Fillion, Kerry Washington and Lea DeLaria. The film is scheduled to be released on June 16, 2017.",
     "cast":"Owen Wilson, Cristela Alonzo, Armie Hammer, Larry the Cable Guy, Nathan Fillion, Kerry Washington, Lea DeLaria",
@@ -14,6 +16,7 @@
     "thumbnail":"http://eapmovies.com/templates/eap2/timthumb.php?src=http://eapmovies.com/components/com_eapmovies/includes/images/movies/movies_470/movies_470_5950dba3679af_movies_470_593e82506c4a9_poster.jpg&h=350&w=270&zc=1"
   },
   "transformers3":{
+    "id":"transformers3",
     "name":"Transformers 3",
     "synopsis":"Transformers: The Last Knight is an upcoming American science fiction action film based on the toy line of the same name created by Hasbro. It is the fifth installment of the live-action Transformers film series and a direct sequel to 2014's Transformers: Age of Extinction. The film was directed by Michael Bay, with Mark Wahlberg and Stanley Tucci reprising their roles from Age of Extinction alongside Josh Duhamel, Tyrese Gibson, and John Turturro from the first three movies. Bay has stated this film marks his final picture in the franchise. The film is set to be released on June 21, 2017 by Paramount Pictures in 2D, 3D, and IMAX 3D.",
     "cast":"Mark Wahlberg, Josh Duhamel, Stanley Tucci, Anthony Hopkins",
@@ -21,6 +24,7 @@
     "thumbnail":"http://eapmovies.com/templates/eap2/timthumb.php?src=http://eapmovies.com/components/com_eapmovies/includes/images/movies/movies_471/movies_471_5950db2e660fa_movies_471_593e846e1aa35_poster2.jpg&h=350&w=270&zc=1"
   },
   "despicableme3":{
+    "id":"despicableme3",
     "name":"Despicable Me 3",
     "synopsis":"Despicable Me 3 is a 2017 American 3D computer-animated comedy film produced by Illumination Entertainment and released by Universal Pictures. It is the third installment in the Despicable Me film series, and the sequel to Despicable Me 2 (2013). Directed by Pierre Coffin and Kyle Balda, and co-directed by Eric Guillon, the film is written by Cinco Paul and Ken Daurio and stars the voices of Steve Carell, Kristen Wiig and Trey Parker. It premiered on June 14, 2017 at the Annecy International Animated Film Festival, and is scheduled to be released in the United States on June 30, 2017 by Universal Pictures.",
     "cast":"Steve Carell, Kristen Wiig, Trey Parker",
