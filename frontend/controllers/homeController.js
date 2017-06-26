@@ -3,7 +3,7 @@
  */
 angular.module('cinema.homeController',[])
 
-.controller('homeCtrl', ['$location','userFactory', function($location){
+.controller('homeCtrl', ['$location','userFactory', function($location,userFactory){
     const app = this;
     //test user data
     const users = [];
@@ -16,15 +16,25 @@ angular.module('cinema.homeController',[])
     app.login_error_message = "";
 
     app.login = function(){
-        $location.path('/dashboard');
-        console.log("login function called");
+        if(app.login_email==""||app.login_email==undefined){
+            console.log("email undefined");
+        }else if(app.login_password==""||app.login_password==undefined){
+            console.log("password undefined");
+        }else{
+            var login_data = {};
+            login_data.email = app.login_email;
+            login_data.password = app.login_password;
+            userFactory.login(data).then(function(data){
+                $location.path('/dashboard');
+                console.log(data);
+            }).catch(function(err){
+                console.log(err);
+            })
+        }
     }
 
 //    signup function
     app.signup = function(){
-        console.log("signup called")
-        console.log(app.signup_name)
-
         if(app.signup_name==""||app.signup_name==undefined){
             console.log("name not defined")
         }else if(app.signup_email==""||app.signup_email==undefined){
@@ -36,7 +46,7 @@ angular.module('cinema.homeController',[])
         }else if(app.signup_password!=app.signup_password_confirm){
             console.log("passwords do not match");
         }else{
-            var signup_details = [];
+            var signup_details = {};
             signup_details.name = app.signup_name;
             signup_details.email = app.signup_email;
             signup_details.password = app.signup_password;

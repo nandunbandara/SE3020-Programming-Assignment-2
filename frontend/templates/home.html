@@ -3,9 +3,9 @@
         <h2>Already a member?</h2>
         <h4>Login here!</h4>
         <form>
-            <input type="text" class="form-control" placeholder="Email"><br>
-            <input type="text" class="form-control" placeholder="Password"><br>
-            <button class="btn btn-primary">Login</button>
+            <input type="text" class="form-control" placeholder="Email" ng-model="home.login_email"><br>
+            <input type="text" class="form-control" placeholder="Password" ng-model="home.login_password"><br>
+            <button class="btn btn-primary" ng-click="home.login()">Login</button>
             <button class="btn btn-link">Forgotten Password?</button>
          </form><br>
         <img src="assets/images/guest.png" class="img-responsive" style="height:20em; max-width:none;">
@@ -21,7 +21,7 @@
         <button class="btn btn-primary" ng-click="home.signup()">Signup</button>
     </form><br>
     <h4>Contact us on:</h4>
-    <p>Email: contact@movietimes.lk</p>
+    <p>Email: contact@cinematimes.lk</p>
     <p>Office:+94117555555</p>
 </div>
 <div class="col-md-offset-1"></div>

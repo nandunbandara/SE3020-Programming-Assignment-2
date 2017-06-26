@@ -12,4 +12,9 @@ angular.module('cinema',[
     'cinema.orderService',
     'cinema.userService',
     'cinema.movieService'
-]);
+])
+
+//    set interceptor to set token in request headers
+.config(['$httpProvider', function($httpProvider){
+    $httpProvider.interceptors.push('tokenInterceptorFactory');
+}])

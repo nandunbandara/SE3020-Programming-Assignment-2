@@ -5,9 +5,779 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f48aefc-be27-4b48-b754-662f1d5b3af4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/.bin/acorn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/.bin/commonize" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/.bin/defs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/.bin/regenerator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/.bin/window-size" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/bin/acorn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/dist/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/dist/acorn.es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/dist/acorn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/dist/acorn_loose.es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/dist/acorn_loose.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/dist/walk.es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/dist/walk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/bin/acorn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/expression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/identifier.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/locutil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/loose/expression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/loose/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/loose/parseutil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/loose/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/loose/statement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/loose/tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/lval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/parseutil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/statement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/tokencontext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/tokenize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/tokentype.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/walk/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/acorn/src/whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/align-text/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/align-text/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/align-text/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/align-text/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/alter/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/alter/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/alter/alter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/alter/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/alter/test/alter-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ast-traverse/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ast-traverse/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ast-traverse/ast-traverse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ast-traverse/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ast-traverse/tst/tst-ast.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ast-traverse/tst/tst.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/appveyor.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/bcrypt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/binding.gyp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/examples/async_compare.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/examples/forever_gen_salt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/lib/binding/bcrypt_lib.node" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/lib/promises.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/src/bcrypt.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/src/bcrypt_node.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/src/blowfish.cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/src/node_blf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/test/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/test/promise.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/test/repetitions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/test/sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/bcrypt/werker.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/breakable/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/breakable/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/breakable/breakable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/breakable/examples/example-explicit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/breakable/examples/example.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/breakable/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/breakable/test/breakable-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/camelcase/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/camelcase/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/camelcase/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/camelcase/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/center-align/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/center-align/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/center-align/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/center-align/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/center-align/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/.coveralls.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/node_modules/wordwrap/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/node_modules/wordwrap/README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/node_modules/wordwrap/example/center.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/node_modules/wordwrap/example/meat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/node_modules/wordwrap/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/node_modules/wordwrap/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/node_modules/wordwrap/test/break.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/node_modules/wordwrap/test/idleness.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/node_modules/wordwrap/test/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cliui/test/cliui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/bin/commonize" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/lib/cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/lib/commoner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/lib/context.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/lib/grep.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/lib/output.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/lib/reader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/lib/relative.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/lib/watcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/def/babel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/def/babel6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/def/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/def/e4x.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/def/es6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/def/es7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/def/esprima.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/def/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/def/jsx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/def/mozilla.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/fork.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/lib/equiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/lib/node-path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/lib/path-visitor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/lib/path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/lib/scope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/lib/shared.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/lib/types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/ast-types/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/example/add-braces" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/example/generic-identity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/example/identity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/example/to-while" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/lib/comments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/lib/fast-path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/lib/lines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/lib/mapping.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/lib/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/lib/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/lib/patcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/lib/printer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/lib/types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/recast/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/dist/source-map.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/dist/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/dist/source-map.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/dist/source-map.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/lib/array-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/lib/base64-vlq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/lib/base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/lib/binary-search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/lib/mapping-list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/lib/quick-sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/lib/source-map-consumer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/lib/source-map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/lib/source-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/node_modules/source-map/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/commoner/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/decamelize/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/decamelize/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/decamelize/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/decamelize/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defined/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defined/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defined/example/defined.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defined/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defined/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defined/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defined/test/def.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defined/test/falsy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/BUILD.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/build.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/bundle.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/clean.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/defs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/es5/defs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/es5/defs-cmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/es5/defs-main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/es5/error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/es5/jshint_globals/LICENSE.jshint" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/es5/jshint_globals/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/es5/jshint_globals/vars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/es5/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/es5/run-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/es5/scope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/es5/stats.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/inline-version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/build/prepare.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/defs-cmd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/defs-config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/defs-harmony" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/defs-main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/jshint_globals/LICENSE.jshint" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/jshint_globals/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/jshint_globals/vars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/loop-closures.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/node_modules/.bin/esparse" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/node_modules/.bin/esvalidate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/node_modules/esprima-fb/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/node_modules/esprima-fb/bin/esparse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/node_modules/esprima-fb/bin/esvalidate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/node_modules/esprima-fb/esprima.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/node_modules/esprima-fb/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/node_modules/esprima-fb/test/compat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/node_modules/esprima-fb/test/reflect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/node_modules/esprima-fb/test/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/node_modules/esprima-fb/test/runner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/node_modules/esprima-fb/test/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/other/v8-bug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/other/v8-for-in-scope-2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/other/v8-for-in-scope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/run-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/scope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/semantic-differences.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/stats.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/a-out.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/allowed-loop-closures-out.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/allowed-loop-closures.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/catch-out.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/catch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/catch2-out.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/catch2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/const-assign-stderr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/const-assign.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/duplicate-var-stderr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/duplicate-var.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/early-out.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/early.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/forbidden-loop-closure-stderr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/forbidden-loop-closure.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/global-name-exists-out.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/global-name-exists.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/let-already-declared-stderr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/let-already-declared.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/letletlet-out.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/letletlet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/named-function-expression-conservative-error-stderr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/named-function-expression-conservative-error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/named-function-expression-out.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/named-function-expression.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/rename-array-index-out.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/rename-array-index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/rename-out.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/rename.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/use-before-definition-stderr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/use-before-definition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/used-in-same-declaration-stderr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/used-in-same-declaration.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/var-inside-let-stderr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/var-inside-let.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/var-let-same-scope-stderr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/var-let-same-scope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/xdollarzero-out.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/defs/tests/xdollarzero.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/bench/ddetect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/bench/detect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/bench/esprima_v_acorn.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/example/strings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/example/strings_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/both.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/chained.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/complicated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/es6-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/files/both.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/files/chained.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/files/es6-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/files/generators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/files/isrequire.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/files/nested.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/files/shebang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/files/sparse-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/files/strings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/files/word.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/files/yield.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/generators.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/isrequire.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/nested.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/noargs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/parseopts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/return.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/shebang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/sparse-array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/strings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/word.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/detective/test/yield.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/glob/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/glob/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/glob/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/glob/glob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/glob/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/glob/sync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/invert-kv/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/invert-kv/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/invert-kv/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ip/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/is-buffer/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/is-buffer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/is-buffer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/is-buffer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/is-buffer/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/is-buffer/test/basic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/CHANGELOG_20170213194220.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/CHANGELOG_20170213194403.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/CHANGELOG_20170213194453.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/CHANGELOG_20170213194602.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/CHANGELOG_20170213194730.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/README_20170308140601.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/README_20170309185833.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/README_20170309185917.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/README_20170309190102.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/README_20170321171635.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/README_20170321171728.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/README_20170321171847.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/README_20170321172244.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/README_20170321172314.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/verify_20170327175344.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/verify_20170327175426.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/verify_20170327175443.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/.history/verify_20170327175706.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/kind-of/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/kind-of/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/kind-of/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/kind-of/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/lazy-cache/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/lazy-cache/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/lazy-cache/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/lazy-cache/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/lcid/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/lcid/lcid.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/lcid/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/lcid/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/lcid/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/longest/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/longest/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/longest/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/longest/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/querycursor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/mongodb-cert.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/ms/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/ms/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/ms/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/ms/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/os-locale/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/os-locale/license" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/os-locale/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/os-locale/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/private/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/private/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/private/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/private/private.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/q/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/q/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/q/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/q/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/q/q.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/q/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/example/add-braces" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/example/generic-identity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/example/identity" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/example/to-while" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/lib/comments.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/lib/fast-path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/lib/lines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/lib/mapping.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/lib/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/lib/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/lib/patcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/lib/printer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/lib/types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/.bin/esparse" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/.bin/esvalidate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/def/babel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/def/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/def/e4x.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/def/es6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/def/es7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/def/esprima.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/def/fb-harmony.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/def/mozilla.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/lib/equiv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/lib/node-path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/lib/path-visitor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/lib/path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/lib/scope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/lib/shared.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/lib/types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/ast-types/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/esprima-fb/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/esprima-fb/bin/esparse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/esprima-fb/bin/esvalidate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/esprima-fb/esprima.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/esprima-fb/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/esprima-fb/test/compat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/esprima-fb/test/reflect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/esprima-fb/test/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/esprima-fb/test/runner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/esprima-fb/test/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/dist/source-map.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/dist/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/dist/source-map.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/dist/source-map.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/lib/array-set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/lib/base64-vlq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/lib/base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/lib/binary-search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/lib/mapping-list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/lib/quick-sort.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/lib/source-map-consumer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/lib/source-map-generator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/lib/source-node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/node_modules/source-map/source-map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/recast/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator-runtime/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator-runtime/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator-runtime/path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator-runtime/runtime-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator-runtime/runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/PATENTS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/bin/regenerator" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/lib/emit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/lib/hoist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/lib/leap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/lib/meta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/lib/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/lib/visit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/node_modules/.bin/esparse" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/node_modules/.bin/esvalidate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/node_modules/esprima-fb/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/node_modules/esprima-fb/bin/esparse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/node_modules/esprima-fb/bin/esvalidate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/node_modules/esprima-fb/esprima.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/node_modules/esprima-fb/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/node_modules/esprima-fb/test/compat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/node_modules/esprima-fb/test/reflect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/node_modules/esprima-fb/test/run.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/node_modules/esprima-fb/test/runner.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/node_modules/esprima-fb/test/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/packages/regenerator-runtime/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/packages/regenerator-runtime/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/packages/regenerator-runtime/path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/packages/regenerator-runtime/runtime-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/packages/regenerator-runtime/runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/runtime-module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/regenerator/runtime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/repeat-string/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/repeat-string/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/repeat-string/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/repeat-string/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/right-align/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/right-align/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/right-align/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/right-align/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/simple-fmt/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/simple-fmt/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/simple-fmt/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/simple-fmt/simple-fmt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/simple-fmt/test/simple-fmt-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/simple-is/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/simple-is/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/simple-is/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/simple-is/simple-is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/simple-is/test/simple-is-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/test/server.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/test/server.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stable/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stable/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stable/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stable/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stable/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stable/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stable/stable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stable/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stream-to-buffer/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stream-to-buffer/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stream-to-buffer/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stream-to-buffer/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stream-to/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stream-to/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stream-to/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stream-to/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stream-to/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stream-to/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stringmap/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stringmap/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stringmap/examples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stringmap/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stringmap/stringmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stringset/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stringset/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stringset/examples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stringset/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/stringset/stringset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/through/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/through/LICENSE.APACHE2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/through/LICENSE.MIT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/through/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/through/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/through/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/through/test/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/through/test/auto-destroy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/through/test/buffering.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/through/test/end.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/through/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/tryor/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/tryor/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/tryor/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/tryor/tryor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/window-size/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/window-size/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/window-size/cli.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/window-size/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/window-size/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/y18n/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/y18n/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/y18n/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/y18n/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/completion.sh.hbs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/lib/completion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/lib/parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/lib/usage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/lib/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/locales/de.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/locales/en.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/locales/es.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/locales/fr.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/locales/ja.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/locales/pirate.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/locales/pt.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/locales/zh.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/yargs/package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app.js" afterPath="$PROJECT_DIR$/frontend/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/controllers/homeController.js" afterPath="$PROJECT_DIR$/frontend/controllers/homeController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/user.model.js" afterPath="$PROJECT_DIR$/services/auth_service/user.model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/user.route.js" afterPath="$PROJECT_DIR$/services/auth_service/user.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/services/userService.js" afterPath="$PROJECT_DIR$/frontend/services/userService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/templates/home.html" afterPath="$PROJECT_DIR$/frontend/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/.bin/_mocha" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/.bin/_mocha" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/.bin/mocha" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/.bin/mocha" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/agent-base/.travis.yml" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/agent-base/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/agent-base/History.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/agent-base/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/agent-base/agent.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/agent-base/agent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/agent-base/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/agent-base/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/agent-base/test/test.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/agent-base/test/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ast-types/.travis.yml" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/ast-types/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ast-types/def/flow.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/ast-types/def/flow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ast-types/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/ast-types/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/body-parser/HISTORY.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/body-parser/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/body-parser/README.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/body-parser/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/body-parser/lib/read.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/body-parser/lib/read.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/body-parser/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/body-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/cors/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/cors/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/express/History.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/express/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/express/Readme.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/express/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/express/lib/application.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/express/lib/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/express/lib/middleware/init.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/express/lib/middleware/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/express/lib/response.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/express/lib/response.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/express/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/express/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/HISTORY.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/debug/CHANGELOG.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/debug/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/debug/README.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/debug/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/debug/component.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/debug/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/debug/src/browser.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/debug/src/browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/debug/src/node.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/debug/src/node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/ms/index.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/ms/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/ms/readme.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/node_modules/ms/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/finalhandler/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/get-uri/.travis.yml" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/get-uri/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/get-uri/History.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/get-uri/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/get-uri/index.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/get-uri/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/get-uri/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/get-uri/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ip/README.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/ip/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ip/lib/ip.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/ip/lib/ip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ip/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/ip/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/ip/test/api-test.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/ip/test/api-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/CHANGELOG.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/bin/changelog" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/bin/changelog" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/jsonwebtoken/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mocha/bin/_mocha" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mocha/bin/_mocha" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mocha/bin/mocha" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mocha/bin/mocha" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mocha/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mocha/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/HISTORY.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/lib/connection/connection.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/lib/connection/connection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/lib/connection/pool.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/lib/connection/pool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/lib/topologies/replset.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/lib/topologies/replset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/lib/topologies/replset_state.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/lib/topologies/replset_state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/lib/topologies/shared.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/lib/topologies/shared.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb-core/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/HISTORY.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/README.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/admin.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/aggregation_cursor.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/aggregation_cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/collection.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/collection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/command_cursor.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/command_cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/cursor.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/db.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/mongo_client.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/mongo_client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/replset.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/lib/replset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongodb/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/.eslintignore" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/.eslintignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/.github/ISSUE_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/.npmignore" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/History.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/README.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/aggregate.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/aggregate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/cast.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/cast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/connection.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/connection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/document.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/document.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/error/validation.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/error/validation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/index.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/internal.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/internal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/model.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/plugins/saveSubdocs.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/plugins/saveSubdocs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/plugins/validateBeforeSave.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/plugins/validateBeforeSave.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/query.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/boolean.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/boolean.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/buffer.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/buffer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/date.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/date.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/decimal128.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/decimal128.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/embedded.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/embedded.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/number.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/number.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/objectid.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/objectid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/string.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schema/string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schematype.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/schematype.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/services/model/applyHooks.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/services/model/applyHooks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/services/model/discriminator.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/services/model/discriminator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/services/query/castUpdate.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/services/query/castUpdate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/services/updateValidators.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/services/updateValidators.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/types/array.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/types/array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/types/embedded.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/types/embedded.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/types/subdocument.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/types/subdocument.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/utils.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mongoose/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/morgan/HISTORY.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/morgan/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/morgan/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/morgan/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mpath/History.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mpath/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mpath/bench.out" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mpath/bench.out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mpath/lib/index.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mpath/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mpath/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mpath/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mpath/test/index.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mpath/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/History.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/README.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/lib/mquery.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/lib/mquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/.npmignore" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/Makefile" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/component.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/node.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/ms/index.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/ms/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/node_modules/ms/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/mquery/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/node-mailjet/README.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/node-mailjet/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/node-mailjet/config.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/node-mailjet/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/node-mailjet/examples/sendmail/bin/www" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/node-mailjet/examples/sendmail/bin/www" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/node-mailjet/mailjet-client.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/node-mailjet/mailjet-client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/node-mailjet/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/node-mailjet/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-proxy-agent/.travis.yml" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/pac-proxy-agent/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-proxy-agent/History.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/pac-proxy-agent/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-proxy-agent/index.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/pac-proxy-agent/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-proxy-agent/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/pac-proxy-agent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-proxy-agent/test/test.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/pac-proxy-agent/test/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/.travis.yml" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/index.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/myIpAddress.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/myIpAddress.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/test/test.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/test/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/test/weekdayRange.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/test/weekdayRange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/timeRange.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/timeRange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/weekdayRange.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/pac-resolver/weekdayRange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/require_optional/.travis.yml" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/require_optional/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/require_optional/index.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/require_optional/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/require_optional/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/require_optional/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/require_optional/test/require_optional_tests.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/require_optional/test/require_optional_tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/send/HISTORY.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/send/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/send/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/send/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/serve-static/HISTORY.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/serve-static/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/serve-static/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/serve-static/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/should/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/should/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/.travis.yml" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/History.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/README.md" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/socks-proxy-agent.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/socks-proxy-agent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/test/test.js" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/socks-proxy-agent/test/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/auth_service/node_modules/supertest/package.json" afterPath="$PROJECT_DIR$/services/auth_service/node_modules/supertest/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,70 +798,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="movieService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/services/movieService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#38#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/templates/dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboardController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/controllers/dashboardController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#44#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="homeController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/controllers/homeController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.route.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="82" lean-forward="true" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/auth_service/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.route.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/auth_service/user.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="85" column="19" lean-forward="true" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+            <state relative-caret-position="1275">
+              <caret line="85" column="19" lean-forward="false" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/services/userService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#45#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -106,34 +861,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.model.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/auth_service/user.model.js">
+      <file leaf-file-name="userService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/services/userService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="105" lean-forward="false" selection-start-line="19" selection-start-column="105" selection-end-line="19" selection-end-column="105" />
+            <state relative-caret-position="476">
+              <caret line="69" column="28" lean-forward="false" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="e#0#45#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/routes.js">
+      <file leaf-file-name="orderService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/services/orderService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+            <state relative-caret-position="105">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#45#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sessionService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/services/sessionService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#45#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.model.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/auth_service/user.model.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -196,15 +964,15 @@
         <option value="$PROJECT_DIR$/services/movie_service/movies.json" />
         <option value="$PROJECT_DIR$/services/movie_service/movie.routes.js" />
         <option value="$PROJECT_DIR$/frontend/index.html" />
-        <option value="$PROJECT_DIR$/frontend/app.js" />
         <option value="$PROJECT_DIR$/frontend/controllers/dashboardController.js" />
         <option value="$PROJECT_DIR$/frontend/services/movieService.js" />
         <option value="$PROJECT_DIR$/frontend/templates/dashboard.html" />
-        <option value="$PROJECT_DIR$/frontend/templates/home.html" />
-        <option value="$PROJECT_DIR$/frontend/services/userService.js" />
-        <option value="$PROJECT_DIR$/frontend/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/services/auth_service/user.model.js" />
         <option value="$PROJECT_DIR$/services/auth_service/user.route.js" />
+        <option value="$PROJECT_DIR$/frontend/templates/home.html" />
+        <option value="$PROJECT_DIR$/frontend/controllers/homeController.js" />
+        <option value="$PROJECT_DIR$/frontend/services/userService.js" />
+        <option value="$PROJECT_DIR$/frontend/app.js" />
       </list>
     </option>
   </component>
@@ -229,9 +997,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1366" />
-    <option name="y" value="24" />
+    <option name="y" value="52" />
     <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -486,12 +1254,12 @@
       <workItem from="1496959597173" duration="4387000" />
       <workItem from="1498021314237" duration="39517000" />
       <workItem from="1498403607895" duration="8339000" />
-      <workItem from="1498440720193" duration="8467000" />
+      <workItem from="1498440720193" duration="14273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114123000" />
+    <option name="totallyTimeSpent" value="119929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,7 +1271,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="1366" y="52" width="1366" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.215959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -596,13 +1364,6 @@
     <entry file="file://$PROJECT_DIR$/frontend/assets/images/m1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth_service/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/sampath_bank_payment_gateway/payment.model.js">
@@ -730,27 +1491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="112" column="48" lean-forward="false" selection-start-line="112" selection-start-column="48" selection-end-line="112" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/order_payment_confirm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/templates/order_payment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/order_service/seat.model.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -780,16 +1520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/services/sessionService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/movie_service/movies.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -813,43 +1543,7 @@
         <state relative-caret-position="0">
           <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/services/orderService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth_service/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/services/movieService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -882,10 +1576,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/order_payment_confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/order_payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="44" column="32" lean-forward="false" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/templates/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/services/movieService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/services/orderService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/services/sessionService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth_service/user.model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth_service/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="105" lean-forward="false" selection-start-line="19" selection-start-column="105" selection-end-line="19" selection-end-column="105" />
+        <state relative-caret-position="105">
+          <caret line="7" column="82" lean-forward="true" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#!!top" expanded="true" />
@@ -893,36 +1661,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth_service/user.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="19" lean-forward="false" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/auth_service/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/services/userService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="476">
+          <caret line="69" column="28" lean-forward="false" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/controllers/homeController.js">
+    <entry file="file://$PROJECT_DIR$/frontend/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth_service/user.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/auth_service/user.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="85" column="19" lean-forward="true" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding />
         </state>
       </provider>

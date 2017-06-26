@@ -3,7 +3,7 @@
  */
 angular.module('cinema.userService',[])
 
-.factory('userFactory', ['$http', function($http){
+.factory('userFactory', ['$http','tokenFactory', function($http, tokenFactory){
     const userFac = [];
 
     userFac.getAllUsers = ()=>{
@@ -11,12 +11,18 @@ angular.module('cinema.userService',[])
             return data;
         })
     }
-
-    userFac.login = function(){
-
+    //login function
+    userFac.login = function(data){
+        return $http.post('http://localhost:7001/users/authenticate', data).then(function(data){
+            tokenFactory.setToken(data.data.token);
+            return data;
+        }).catch(function(err){
+            return err;
+        });
     }
-
+    //signup - new user
     userFac.signup = function(data){
+        console.log(data);
         return $http.post('http://localhost:7001/users',data).then(function(data){
             return data;
         }).catch(function(err){
@@ -25,4 +31,41 @@ angular.module('cinema.userService',[])
     }
 
     return userFac;
+}])
+
+
+//token factory to set and get token (within application)
+.factory('tokenFactory', ['$window', function($window){
+    const tokenFac = [];
+    //store token in the local storage
+    tokenFac.setToken = function(token){
+        if(token){
+            $window.localStorage.setItem('cinemaToken', token);
+        }else{
+            $window.localStorage.removeItem('cinemaToken');
+        }
+    }
+
+    //get token from the local storage
+    tokenFac.getToken = function(){
+        return $window.localStorage.getItem('cinemaToken');
+    }
+
+    return tokenFac;
+}])
+
+
+//embed tokens in requests
+.factory('tokenInterceptorFactory', ['tokenFactory', function(tokenFactory){
+    const tokenInterceptor = [];
+
+    tokenInterceptor.request = function(req){
+        const token = tokenFactory.getToken();
+        if(token){
+            req.headers['x-access-token'] = token;
+        }
+        return req;
+    }
+
+    return tokenInterceptor;
 }])
